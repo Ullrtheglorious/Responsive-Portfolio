@@ -1,5 +1,4 @@
 .header {
-	overflow: hidden;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #ffffff;
 	border-bottom: 3px solid #cccccc;
@@ -56,7 +55,6 @@ h3 {
 ul {
 	list-style-type: none;
 	margin: 0;
-	overflow: auto;
 	padding: 30px 0px 30px 60px;
 }
 li {
@@ -186,10 +184,15 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 background-color: #8FB299;
 width: 290px;  
 }
-.icons{
-	width: 60px;
-	height: 60px;
-	border: 0;
+.imageme{
+width: 121px;
+float: left;
+margin: 4px 10px 0px 0px;
+border: 1px solid #000000
+}
+nav {
+	float: right;
+	width: auto;
 }
 @media screen and (max-width:980px) {
 	.wrapper {
@@ -221,13 +224,14 @@ width: 290px;
 		margin-bottom: 10px;
 	}
 	.inner {
-		width: 580px;
+		width: 560px;
 	}
 	.connect {
 		width: 600px;
 		margin-top: 10px;
 		margin-bottom: 80px;
 		margin-left: 10px;
+		text-align: left;
 	}
 	ul {
 		padding-right: 10px;
@@ -235,8 +239,75 @@ width: 290px;
 	.name {
 		margin-left: 10px;
 	}
-
+	h3 {
+		width: 560px;
+		text-align: left;
+	}
+	.inner2 {
+		padding-left: 20px;
+	}
 }
 @media screen and (max-width:640px) {
+	.wrapper {
+		width:620px;
+		margin-left: 10px;
+	}
+	.about {
+		width: 580px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.inner {
+		width: 540px;
+	}
+	.connect {
+		width: 580px;
+		margin-top: 10px;
+		margin-bottom: 80px;
+		margin-left: 10px;
+		text-align: left;
+	}
 
+	.nav {
+		float: center;
+		text-align: center;
+		width: 840px;
+		
+	}
+	ul {
+		
+		background-color: #ffffff;
+		width: 680px;
+    	padding-top: 10px;
+    	padding-bottom: 40px;
+		padding-right: 25px;
+	}
+	li {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	h3 {
+		width: 540px;
+		text-align: left;
+	}
+	.inner2 {
+		padding-left: 20px;
+	}
+	.imageme {
+		width: 242px;
+		float: none;
+		margin-left: 149px;
+		margin-bottom: 20px;
+	}
+	.name {
+		width: 640px;
+		margin-left: -10px;
+	}
+	.header {
+		width: 640px;
+	}
+	h1 {
+		padding-right: 40px;
+	}
 }
+
