@@ -223,6 +223,24 @@ nav {
 	ul {
 		padding-right: 40px;
 	}
+	.portfolio_img {
+		width: 310px;
+		height: 220px;
+		border: 0;
+		padding-bottom: 30px;
+
+	}
+	.portfolio_img_left {
+		width: 310px;
+		height: 220px;
+		border: 0;
+		padding-bottom: 30px;
+		
+	}
+	.portfolio {
+		width: 310px;
+		top: 140px;
+	}
 	
 
 }
@@ -291,6 +309,7 @@ nav {
 	}
 	.inner {
 		width: 540px;
+		padding-left: 30px;
 	}
 	.connect {
 		width: 600px;
