@@ -342,22 +342,22 @@ nav {
 		padding-right: 40px;
 	}
 	.portfolio_img {
-		width: 570px;
-		height: 500px;
+		width: 540px;
+		height: 470px;
 		border: 0;
 		padding-bottom: 30px;
 
 	}
 	.portfolio_img_left {
-		width: 570px;
-		height: 500px;
+		width: 540px;
+		height: 470px;
 		border: 0;
 		padding-bottom: 30px;
 		
 	}
 	.portfolio {
-		width: 570px;
-		top: 420px;
+		width: 540px;
+		top: 390px;
 	}
 }
 
